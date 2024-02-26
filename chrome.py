@@ -85,7 +85,7 @@ class ChromeCookie:
 
 
 if __name__ == '__main__':
-    domain = 'gptapi.us'   # 目标网站域名
+    domain = 'Google.com'   # 目标网站域名
     chromeCookie = ChromeCookie()
     cookie = chromeCookie.get_cookies_from_chrome(domain)
     print(cookie)
